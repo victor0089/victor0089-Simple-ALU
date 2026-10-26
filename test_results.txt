@@ -1,0 +1,12 @@
+test_all_opcodes (test_alu.TestALU.test_all_opcodes) ... ok
+test_branch_reservations (test_alu.TestALU.test_branch_reservations) ... ok
+test_compare_flags (test_alu.TestALU.test_compare_flags) ... ok
+test_control_unit_reference (test_alu.TestALU.test_control_unit_reference) ... ok
+test_program_one (test_alu.TestALU.test_program_one) ... ok
+test_program_two (test_alu.TestALU.test_program_two) ... ok
+test_wraparound (test_alu.TestALU.test_wraparound) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

@@ -1,0 +1,17 @@
+Opcode binary,Opcode hex,Mnemonic,Behavior
+0000,0x0,ADD,A+B modulo 256
+0001,0x1,INC,A+1 modulo 256
+0010,0x2,DEC,A-1 modulo 256
+0011,0x3,CMP,Compare unsigned A and B; set EQ/LT/GT; result=0
+0100,0x4,NOT,bitwise complement A
+0101,0x5,AND,bitwise A AND B
+0110,0x6,OR,bitwise A OR B
+0111,0x7,SHR,logical shift A right one; zero fill
+1000,0x8,SHL,logical shift A left one; zero fill
+1001,0x9,SUB,A-B modulo 256
+1010,0xa,XOR,bitwise A XOR B
+1011,0xb,NAND,bitwise NOT(A AND B)
+1100,0xc,NOR,bitwise NOT(A OR B)
+1101,0xd,PASS,copy A unchanged
+1110,0xe,JZ,branch to label if zero flag is set (reserved; not hardware implemented)
+1111,0xf,JMP,unconditional jump to label (reserved; not hardware implemented)
