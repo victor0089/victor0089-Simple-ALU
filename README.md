@@ -103,7 +103,6 @@ The ALU's first **nine instructions** are the required operations. Five addition
 ```text
 .
 ├── README.md                         # This GitHub documentation
-├── Simple_8bit_ALU.circ              # logisim ALU + register/control reference
 ├── alu_reference.py                  # ALU logic, CPU state, example program models
 ├── test_alu.py                        # Python unittest suite
 ├── opcode_table.csv                  # Full 16-opcode instruction table
